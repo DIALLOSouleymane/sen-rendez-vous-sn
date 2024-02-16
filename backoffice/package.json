@@ -1,0 +1,24 @@
+{
+  "name": "backoffice",
+  "version": "1.0.0",
+  "description": "\"Ceci est la partie backend de notre logiciel de prise de rendez-vous\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIALLOSouleymane/sen-rendez-vous-sn-backend.git"
+  },
+  "author": "Souleymane DIALLO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIALLOSouleymane/sen-rendez-vous-sn-backend/issues"
+  },
+  "homepage": "https://github.com/DIALLOSouleymane/sen-rendez-vous-sn-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  }
+}
