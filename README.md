@@ -1,3 +1,35 @@
+# Installation et configuration de frontoffice de notre application 
+
+## Installation des librairies de notre application
+1. EmailJS library
+    * npm i @emailjs/browser <br>
+    Nous utiliserons cette librairie pour l'envoie d'email.
+
+2. icone de navigation
+    * npm i @fortawesome/free-brands-svg-icons
+    * npm i @fortawesome/free-solid-svg-icons 
+    <!-- police  -->
+    * npm i @fortawesome/react-fontawesome
+3. Librairie d'animation des objets
+    * npm i animate.css
+4. Librairie de chargement de page
+    * npm i react-loaders
+    * npm i loaders.css
+5. Librairie localisation - GPS library
+    * npm i react-leaflet
+6. Library de routage ou navigation entre les pages
+    * npm i react-router-dom
+7. Styles : Sass - Syntactically Awesome Style Sheets
+    * npm i saas
+    * permet d'utiliser for dans les variables par exemple (animation, chargement, etc.).
+    Sass nous permet de créer des variables, des règles encapsulées, des fonctions et même d'utiliser des opérations mathématiques. Grâce à cet outil, nous écrirons des fichiers CSS plus lisibles, plus performants et facilement maintenable.
+## Fichier de configuration : prettierrc
+1. Configuration de prettierrc
+    * .prettierrc est un fichier de configuration utilisé par Prettier, un outil de formatage de code qui automatise la mise en forme des fichiers de code en JSX, CSS et d'autres langages. Ce fichier permet de définir des règles spécifiques pour le formatage du code dans un projet, telles que l'utilisation de guillemets simples ou doubles, la longueur des lignes, l'utilisation de points-virgules ou non, etc.
+    * configuration : voir .prettierrc du frontoffice
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

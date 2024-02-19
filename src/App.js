@@ -1,20 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import './App.scss';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello UAM developpers! <br />
-          Welcome to LITA laboratory! <br />
-          wish you the best... <br />
-          Kind regards. <br />
-          Yassine Ndiaye,<br />
-          Souleymane DIALLO.
-        </p>
-      </header>
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Layout />} />
+
+    </Routes>
+    </>
   );
 }
 
