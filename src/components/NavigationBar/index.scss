@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.nav-bar {
+    // background: #ABABAB; // a retirer !
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    // min-height: 500px;
+
+    .logo {
+        display: inline-block;
+        padding: 8px;
+        margin-left: 20px;
+    }
+
+    img{
+        // display: inline-block;
+        margin: 15x auto;
+        height: 24px;
+        width: auto;
+    }
+
+    .company-name{
+        color: #007E85;
+        font-weight: 600;
+        width: fit-content;
+        font-size: 26px;
+    }
+
+    nav {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 30%;
+        height: 60px;
+        width: 68%;
+        // background: #000;
+
+        .home, .create-account, .login{
+            position: relative;
+            top: 35%;
+            color: #007E85;
+            display: inline-block;
+
+
+        }
+
+        .create-account{
+            left: 70%;
+            // right: 0%;
+        }
+
+        .login{
+            // right: 0;
+            background-color: #007E85;
+            color: white;
+            // border: 5px solid #007E85;
+            border-radius: 5px;
+            padding: 5px 10px;
+            float: right;
+        }
+    } 
+    
+}
