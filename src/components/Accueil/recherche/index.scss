@@ -1,0 +1,32 @@
+.recherche-form{
+    position: absolute;
+    top: 90%;
+    width: 70%;
+    height: 25%;
+    margin: 0 15%;
+    background: #FAFAFA;
+    // display: flex;
+    // justify-content: space-around;
+
+    .flex-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    input{
+        // display: inline-block;
+        margin: 0px 5px;
+        width: 200px;
+        height: 30px;
+        border: 3px solid #007E85;
+        // justify-content: space-between;
+    }
+
+    input[type="button"]{
+        background: #007E85;
+        border-radius: 5px;
+        color: white;
+    }
+
+
+}

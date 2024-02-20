@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 40px;
+    position: absolute;
+    z-index: 1;
+    // margin: 60px;
+    // top: 6%;
+    
+}

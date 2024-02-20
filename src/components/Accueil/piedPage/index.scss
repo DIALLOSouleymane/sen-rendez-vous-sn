@@ -1,0 +1,26 @@
+.container-pied-page{
+    position: absolute;
+    background-color: #007E85;
+    width: 100%;
+    height: 250px;
+    top: 220%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .company-name{
+        display: inline;
+        // margin: 0;
+        // padding: 0;
+    }
+
+    .copyright{
+        padding: 0 30px;
+        margin: 0 20px;
+    }
+}
