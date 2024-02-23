@@ -1,24 +1,17 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './components/Layout';
-import Home from './components/Accueil';
-import Recherche from './components/Accueil/recherche';
-import Annone from './components/Accueil/annonce';
-import PiedPage from './components/Accueil/piedPage';
+import CreerCompte from './pages/CreerCompte/CreerCompte';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Layout />} />
-      {/* <Route index element={<Home />} /> */}
-    </Routes>
-    <Home />
-    <Recherche />
-    <Annone />
-    <PiedPage />
-    {/* </Route> */}
-    {/* </Routes> */}
+      <Routes>
+        <Route path='/' element={<Layout />} />
+        <Route index element={<HomePage />} />
+        <Route path='createaccount' element={<CreerCompte />} />
+      </Routes>
     </>
   );
 }
