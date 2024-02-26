@@ -1,0 +1,58 @@
+.inscription-container{
+    // border: 3px solid green;
+    // text-align: center;
+    h2{
+        text-align: center;
+    }
+
+    // .column-flexbox{
+    //     border: 3px dotted orange;;
+    // }
+
+    .signUp-form{
+        display: flex;
+        // Notre flexbox est multilignes ;
+        flex-wrap: wrap;
+        // border: 3px solid red;
+        width: 60%;
+        max-width: 600px;
+        margin: auto;
+        // justify-content: space-between;
+
+        // label, input{
+        //     min-width: 230px;
+        //     height: 35px;
+        // }
+
+        .flex-item{
+            flex: 0 0 calc(50%);
+            padding: 5px;
+            // justify-content: space-between;
+            // border: 3px solid green;
+
+            input{
+                height: 35px;
+                width: 90%;
+                border-radius: 5px;
+            }
+        }
+
+        .terms-of-use-container{
+            // border: 2px solid green;
+            width: 95%;
+
+            .terms-of-use{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            input[type=button]{
+                display: block;
+                margin: auto;
+                width: 30%;
+            }
+        }
+
+
+    }
+}

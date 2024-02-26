@@ -1,6 +1,17 @@
 // Definition des styles globales de notre application
 $primary-color: #007E85;
 
+input{
+  border: 2px solid #007E85
+}
+
+input:hover,
+input[type=button]:hover, 
+button:hover
+Link:hover{
+  opacity: 0.8;
+}
+
 @import 'animate.css';
 
 // Polices

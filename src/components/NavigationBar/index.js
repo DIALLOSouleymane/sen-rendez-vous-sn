@@ -10,15 +10,24 @@ const NavigationBar = () => (
             <span className='company-name'>Nom Entreprise</span>
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" className="home" to="/"
-                style={{textDecoration: 'none'}}
-                >Accueil</NavLink>
-            <NavLink exact="true" activeclassname="active" className="create-account" to="/createaccount"
-                style={{textDecoration: 'none'}}
-                >Créer Compte</NavLink>
-            <NavLink exact="true" activeclassname="active" className="login" to="/login"
-                style={{textDecoration: 'none'}}
-                >Se connecter</NavLink>
+            <div className="accueil">
+                <NavLink exact="true" activeclassname="active" className="home" to="/"
+                    style={{textDecoration: 'none'}}
+                    >Accueil</NavLink>
+            </div>
+            <div className="connexion">
+                <div>
+                    <NavLink exact="true" activeclassname="active" className="create-account" 
+                        to="/createaccount"
+                        style={{textDecoration: 'none'}}
+                        >Créer Compte</NavLink>
+                </div>
+                <div>
+                    <NavLink exact="true" activeclassname="active" className="login" to="/login"
+                        style={{textDecoration: 'none'}}
+                        >Se connecter</NavLink>
+                </div>
+            </div>
         </nav>
     </div>
 );

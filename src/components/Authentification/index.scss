@@ -1,0 +1,38 @@
+.connexion-container{
+    display: flex;
+
+    .authentification{
+        flex: 0 0 calc(50%);
+        padding: 5px;
+        text-align: center;  
+        // border: 3px solid green;
+
+        // h2{
+        //     text-align: center;
+        // }
+
+        .flex-item{
+            margin: 10px;
+
+            input{
+                height: 35px;
+                width: 50%;
+                border-radius: 5px;
+            }
+
+            input[type=button]{
+                width: fit-content;
+                // padding: 5px;
+            }
+    
+            label{
+                text-align: left;
+            }
+
+        }
+
+
+        
+    }
+
+}

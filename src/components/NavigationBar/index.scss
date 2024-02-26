@@ -34,35 +34,38 @@
 
     nav {
         position: absolute;
-        display: inline-block;
+        display: flex;
         top: 0;
-        left: 30%;
+        left: 20%;
         height: 60px;
-        width: 68%;
+        width: 80%;
         // background: #000;
+        // border: 3px solid red;
+        justify-content: space-between;
+        align-items: center;
+        // color: #007E85;
+        // margin-right: 20px;
+
+        .connexion{
+            display: flex;
+            // border: 3px solid greenyellow;
+            width: 25%;
+            justify-content: space-around;
+        }
+
 
         .home, .create-account, .login{
-            position: relative;
-            top: 35%;
             color: #007E85;
-            display: inline-block;
-
 
         }
 
-        .create-account{
-            left: 70%;
-            // right: 0%;
-        }
 
         .login{
-            // right: 0;
             background-color: #007E85;
             color: white;
             // border: 5px solid #007E85;
             border-radius: 5px;
             padding: 5px 10px;
-            float: right;
         }
     } 
     
