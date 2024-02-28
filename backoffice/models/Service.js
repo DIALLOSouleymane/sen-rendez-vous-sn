@@ -1,14 +1,25 @@
-// Creation de notre module exportable sous forme de fonction
+'use strict';
+const {
+  Model
+} = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-
-    // definition de notre table Service
-    const Service = sequelize.define("Service", {
-        nom: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },            
-    });
-
-    return Service;
-
-}
+  class Service extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+  Service.init({
+    nom: DataTypes.STRING,
+    duree: DataTypes.FLOAT,
+    prix: DataTypes.FLOAT
+  }, {
+    sequelize,
+    modelName: 'Service',
+  });
+  return Service;
+};

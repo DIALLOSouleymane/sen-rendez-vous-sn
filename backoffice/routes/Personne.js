@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 // Recupération de notre modele de table
-const { Personne } = require("../models");
+const { Personne } = require("../models-copy");
 
 router.get("/", async (req, res) => {
     // res.json("Hello world!");

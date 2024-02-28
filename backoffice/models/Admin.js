@@ -1,19 +1,27 @@
-// Creation de notre module exportable sous forme de fonction
+'use strict';
+const {
+  Model
+} = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-
-    // definition de notre table Administrateur
-    const Admin = sequelize.define("Admin", {
-        telephone_fixe: {
-            type: DataTypes.STRING,
-            allowNull: true,
-        },
-        id_personne: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-               
-    });
-
-    return Admin;
-
-}
+  class Admin extends Model {
+    /**
+     * Helper method for defining associations.
+     * This method is not a part of Sequelize lifecycle.
+     * The `models/index` file will call this method automatically.
+     */
+    static associate(models) {
+      // define association here
+    }
+  }
+  Admin.init({
+    prenom: DataTypes.STRING,
+    nom: DataTypes.STRING,
+    email: DataTypes.STRING,
+    telephone: DataTypes.STRING,
+    password: DataTypes.STRING
+  }, {
+    sequelize,
+    modelName: 'Admin',
+  });
+  return Admin;
+};

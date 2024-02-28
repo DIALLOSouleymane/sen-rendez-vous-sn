@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": null,
-    "database": "uam_saas_lita",
+    "database": "senrvsndb",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

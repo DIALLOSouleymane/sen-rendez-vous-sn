@@ -28,9 +28,9 @@ function InscriptionPrestataire() {
                 <input type="text" name="" id="specialite" placeholder='Veuiller saisir votre spécialité : ' />
             </div>
             <div className="flex-item">
-                <label htmlFor="codecabinet">Code entreprise ou cabinet</label><br />
+                <label htmlFor="nomcabinet">Nom entreprise ou cabinet</label><br />
                 <input 
-                    type="text" name="" id="codecabinet" 
+                    type="text" name="" id="nomcabinet" 
                     placeholder="Veuiller saisir l'initial de votre entreprise ou cabinet : (ex UAM)" 
                 />
             </div>

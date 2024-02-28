@@ -11,6 +11,7 @@ router.get("/", async (req, res) => {
     // res.json("Hello world!");
     // La premiere requete renvoie un résultat au format web page !
     const admin = await Admin.findAll();
+    res.json(admin);
 });
 
 router.post("/", async (req, res) => {
