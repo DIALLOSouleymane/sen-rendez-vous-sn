@@ -1,0 +1,419 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+.containerForm {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    display: flex;
+    // width: 100%;
+    //background-image: url("../../../assets/images/choix_type_compte.png");
+   
+    height: 480px;
+    width: 100%; 
+    //border: 2px solid black;
+    .bloc{
+        background-color: #007E85;
+    //transform: translateY(-10%);
+    margin-top: 50px; 
+    padding: 400px;
+    border: 1px solid #007E85;
+    width: 156%; 
+    ul li a {
+        text-decoration: none; 
+        color :#ffffff
+    }
+    ul li i {
+        margin-right: 100px; 
+    }
+    }
+
+    .bloc1{
+        display: flex;
+        background-color: #f2f2f2;
+        //transform: translateY(-10%);
+        //margin-top: 10px; 
+        padding: 385px;
+        top: 120px;
+        //border: 1px solid #007E85;
+        width:98%; ; 
+        margin-left: 20px;
+        position: absolute;
+        border-top-left-radius: 45px; /* Coin supérieur gauche arrondi */
+        border-bottom-left-radius: 45px;
+
+        .font-weight-bold {
+            position: absolute;
+            top: 30px;
+            margin-right: 200px; /* Ajoute une marge à droite des icônes */
+            font-size: 20px;
+          }
+        .font{
+            display: flex;
+            justify-content: space-between;
+        }
+        .fontBell{
+            position: absolute;
+            font-size: 20px;
+            top: 50px;
+            left: 87%;
+        }
+        .bloc3{
+        
+            background-color:none ;
+        
+            padding: 20px;
+            top: 40px;
+            left: 90%;
+            border: 1px solid #8d8f8f;
+            width: 100px; 
+           // margin-left: 5px;
+            position: absolute;
+            border-radius: 10px;
+
+            .user{
+                position: absolute;
+                font-size: 20px;
+                top: 10px;
+                left: 15%;
+            }
+            .profil{
+                position: absolute;
+                border-radius: 100%;
+                top: 100px;
+                left: 90%;
+                width: 35%;
+                background-color: #0ea1a1;
+                h2{
+                    font-size: 10px;
+                    transform: translateX(-50%); /* Déplace le titre horizontalement de moitié de sa largeur vers la gauche */
+                    position: absolute; /* Vous devrez peut-être ajuster la position absolue */
+                    left: 50%; /* Place le titre horizontalement au centre du bloc profil */
+                    top: 50%; /* Place le titre verticalement au centre du bloc profil */
+                    transform: translate(-50%, -50%); 
+                }
+            }
+            .down{
+                color: #686868;
+                position: absolute;
+                font-size: 16px;
+                top: 6px;
+                left: 75%;
+            }
+        }
+
+        
+        .search{
+            position: absolute;
+            font-size: 14px;
+            top: 62px;
+            left: 46%;
+            color: #686868;
+        }
+
+        
+    }
+    .bloc1 .bloc5 {
+        position: absolute;
+        background-color:  #ffffff; 
+        padding: 145px; /* Espacement intérieur */
+        top: 485px; /* Marge supérieure */
+        border-radius: 8px; /* Bord arrondi */
+        left: 50px;
+        width: 50%;
+        //display: flex; 
+
+        h2{
+            position: absolute;
+            top: 20px;
+            left: 15px;
+        }
+        .Name1{
+            position: absolute; 
+            top: 150px; 
+            left: 30px; 
+            margin-right: 10px;
+            color: rgb(0, 0, 0);
+            background-color: #070707;
+            h3{
+                position: absolute;
+                top: 0;
+                left: 70px;
+                width: 200px;
+                font-size: 16px;
+                h5{
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 20px;
+                    font-size: 10px; 
+                    font-family: poppins;
+                    color: #0000FF;
+                }
+
+            }
+         
+        }
+        .Time2{
+            position: absolute;
+            top: 150px;
+            left: 350px;
+            margin-right: 20px;
+            color: rgb(0, 0, 0);
+            background-color: #84bcbf;
+           
+            
+        }
+       
+        .Name2{
+            position: absolute;
+            top: 90px;
+            left: 30px;
+            margin-right: 20px;
+            color: rgb(0, 0, 0);
+            background-color: #84bcbf;
+            h3{
+                position: absolute;
+                top: 0;
+                left: 70px;
+                width: 200px;
+                font-size: 16px;
+                h5{
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 20px;
+                    font-size: 10px; 
+                    font-family: poppins;
+                    color: #F62088;
+                }
+            }
+        }
+        .Time1{
+            position: absolute;
+            top: 90px;
+            left: 350px;
+            margin-right: 20px;
+            color: rgb(0, 0, 0);
+            //background-color: #84bcbf;
+           
+            
+        }
+
+        .Name3{
+            position: absolute;
+            top: 210px;
+            left: 30px;
+            margin-right: 20px;
+            color: rgb(0, 0, 0);
+            background-color: #bf8487;
+            h3{
+                position: absolute;
+                top:0;
+                left: 70px;
+                width: 200px;
+                font-size: 16px;
+                h5{
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    width: 20px;
+                    font-size: 10px; 
+                    font-family: poppins;
+                    color: #128983;
+                }
+                
+            }
+        }
+        .Time3{
+            position: absolute;
+            top: 210px;
+            left: 350px;
+            margin-right: 20px;
+            color: rgb(0, 0, 0);
+            background-color: #84bcbf;
+           
+            
+        }
+      }
+      
+
+    
+    .search-bar {
+        position: absolute; /* Position absolue par rapport au bloc parent */
+        top: 50px; /* Position sous l'en-tête */
+        left: 50px; /* Positionnement horizontal */
+        width: 550px; /* Largeur de la barre de recherche */
+        padding: 10px; /* Espacement intérieur de la barre de recherche */
+        border: 0.5px #ccc; /* Bordure de la barre de recherche */
+        border-radius: 10px; /* Coins arrondis de la barre de recherche */
+        margin-bottom: 20px; /* Espacement en bas de la barre de recherche */
+        background-color: #d8d6d6;
+      }
+      .bloc2{
+        display: flex;
+        background-color:  #007E85;
+        //transform: translateY(-10%);
+        //margin-top: 10px; 
+        padding: 130px;
+        top: 315px;
+        //border: 1px solid #007E85;
+        width: 550px; 
+        margin-left: 60px;
+        position: absolute;
+        border-radius: 20px; 
+        display: flex;
+        justify-content: space-between;
+
+        
+        h2 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        img{
+            position: absolute;
+            width: 100%;
+            height: 200px;
+        
+            left: 165px;
+            top: 10px;
+            object-fit: contain;
+        }
+        h1{
+            font-family: Arial, sans-serif; // exemple de style de police
+            font-size: 20px;
+            position: absolute;
+            top: 300px; ;
+            left: 600px;
+            width: 300px;
+            color: #23262F;
+            
+        }
+   
+
+
+
+
+
+
+
+
+        .bloc3{
+        
+            background-color: #84bcbf;
+        // transform: translateY(10%);
+            //margin-top: 10px; 
+            padding: 40px;
+            top: 170px;
+            left: 10px;
+            //border: 1px solid #007E85;
+            width: 180px; 
+           // margin-left: 5px;
+            position: absolute;
+            border-radius: 20px; 
+
+            h2{
+                position: absolute;
+                top: 2px;
+                font-size: 18px;
+                span{
+                    font-size: 30px;
+                    margin-left: 8px;
+
+                }
+
+            }
+            }
+            
+        .bloc4{
+        
+            background-color: #84bcbf;
+        // transform: translateY(10%);
+            //margin-top: 10px; 
+            padding: 40px;
+            top: 170px;
+            left: 200px;
+            //border: 1px solid #007E85;
+            width: 180px; 
+           // margin-left: 5px;
+            position: absolute;
+            border-radius: 20px; 
+            h2{
+                position: absolute;
+                top: 2px;
+                font-size: 18px;
+                span{
+                    font-size: 30px;
+                    margin-left: 8px;
+
+                }
+
+
+            }
+            
+           }
+    
+   
+
+}
+
+
+
+    .text-zone{
+        padding: 15px;
+        color: #ffffff;
+    }
+    .main-heading{
+        
+        color: #007E85;
+        font-size: 30px
+
+        
+    }
+    .sub-heading {
+        position: absolute;
+        top: 80px;
+        color: 50514F;
+        font-size: 50px;
+        left: 50px;
+
+        .primary {
+            color: #007E85;
+        }
+
+    }
+
+    ul {
+        position: absolute;
+        left: 1px; 
+        top: 100%; 
+        transform: translateY(-50%);
+        
+        list-style: none;
+        
+    }
+    
+    
+    
+    li {
+        top: 100%;
+        //margin-right: 100px;
+        margin-bottom: 40px; /* Ajoute un espace entre chaque élément de liste */
+       
+    }
+ 
+    
+      
+      .nav-link .icon {
+        font-size: 20px; /* Taille u texte */
+      }
+
+  
+
+    
+    
+
+
+
+}
