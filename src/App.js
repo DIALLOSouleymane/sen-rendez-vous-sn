@@ -8,6 +8,7 @@ import ClientSignUpPage from './pages/CreerCompte/CompteClient/Client';
 import PrestataireSignUpPage from './pages/CreerCompte/ComptePrestataire/Prestataire';
 // import Authentification from './components/Authentification';
 import ConnexionPage from './pages/Connexion/Connexion';
+import RecherchePrestataire from './components/Accueil/recherche/RecherchePrestataire';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='inscriptionclient' element={<ClientSignUpPage />} />
         {/* <Route path='inscriptionPrestataire2' element={<InscriptionPrestataire />} /> */}
         <Route path='inscriptionprestataire' element={<PrestataireSignUpPage />} />
+        <Route path='rechercher' element={<RecherchePrestataire />}/>
       </Routes>
     </>
   );

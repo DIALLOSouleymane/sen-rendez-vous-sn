@@ -16,9 +16,12 @@ module.exports = (sequelize, DataTypes) => {
   Prestataire.init({
     prenom: DataTypes.STRING,
     nom: DataTypes.STRING,
+    profil_image: DataTypes.STRING,
+    description: DataTypes.STRING,
     email: DataTypes.STRING,
     telephone: DataTypes.STRING,
     fonction: DataTypes.STRING,
+    lieu: DataTypes.STRING,
     nom_entreprise: DataTypes.STRING,
     password: DataTypes.STRING
   }, {

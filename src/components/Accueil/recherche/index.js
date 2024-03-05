@@ -6,10 +6,10 @@ const Recherche = () => {
       <h2>Trouver un Prestaire</h2>
       <form className='flex-container'>
         <div>
-          <input type='text' placeholder='Nom : ' />
+          <input type='text' placeholder='Nom : (ex : Souleymane DIALLO)' />
         </div>
         <div>
-        <input type='text' placeholder='Spécialité ou service offert : ' />
+        <input type='text' placeholder='Spécialité : (ex : Développeur)' />
         </div>
         <div>
         <input type='Button' value="Rechercher" />
@@ -19,4 +19,4 @@ const Recherche = () => {
   )
 }
 
-export default Recherche
+export default Recherche;
