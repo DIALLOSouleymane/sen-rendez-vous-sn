@@ -1,4 +1,4 @@
-.button-container {
+.button-containerClient {
     display: flex;
    // flex: 1%;
     align-items: center; // Vertically align buttons
@@ -8,7 +8,7 @@
     //margin-top: 1000px;
     
   }
-.Button1 {
+.ButtonC {
     position: absolute;
     top: 150px;
     left: 10%;
@@ -31,7 +31,7 @@
   
   }
 
-.Button1:hover {
-    background-color: #bdbdbd; 
+.ButtonC:hover {
+    background-color: #8b8a8a; 
     
   }

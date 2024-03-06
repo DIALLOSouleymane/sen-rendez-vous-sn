@@ -1,7 +1,7 @@
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 
-.containerForm {
+.containerFormC {
     position: absolute;
     left: 0;
     top: 5%;
@@ -12,7 +12,7 @@
     height: 480px;
     width: 100%; 
     //border: 2px solid black;
-    .bloc{
+    .blocC{
         background-color: #007E85;
     //transform: translateY(-10%);
     margin-top: 50px; 
@@ -28,7 +28,7 @@
     }
     }
 
-    .bloc1{
+    .bloc1C{
         display: flex;
         background-color: #f2f2f2;
         //transform: translateY(-10%);
@@ -48,15 +48,16 @@
             margin-right: 200px; /* Ajoute une marge à droite des icônes */
             font-size: 20px;
           }
-        .font{
+        .fontC{
             display: flex;
             justify-content: space-between;
         }
-        .fontBell{
+        .fontBellC{
             position: absolute;
             font-size: 20px;
             top: 50px;
             left: 87%;
+            color: #353536;
         }
         .bloc3{
         
@@ -66,31 +67,29 @@
             top: 40px;
             left: 90%;
             border: 1px solid #8d8f8f;
-            width: 100px; 
+            width: 120px; 
            // margin-left: 5px;
             position: absolute;
             border-radius: 10px;
 
-            .user{
+            .userC{
                 position: absolute;
                 font-size: 20px;
                 top: 10px;
                 left: 15%;
+                color: #353536;
             }
             .profil{
                 position: absolute;
                 border-radius: 100%;
-                top: 100px;
-                left: 90%;
-                width: 35%;
-                background-color: #0ea1a1;
+                top: 3px;
+                left: 40%;
+                width: 30%;
+                background-color: #6578ce;
+                text-align: center;
                 h2{
-                    font-size: 10px;
-                    transform: translateX(-50%); /* Déplace le titre horizontalement de moitié de sa largeur vers la gauche */
-                    position: absolute; /* Vous devrez peut-être ajuster la position absolue */
-                    left: 50%; /* Place le titre horizontalement au centre du bloc profil */
-                    top: 50%; /* Place le titre verticalement au centre du bloc profil */
-                    transform: translate(-50%, -50%); 
+                    font-size: 11px;
+                    color: #FFFFFF;
                 }
             }
             .down{
@@ -98,12 +97,12 @@
                 position: absolute;
                 font-size: 16px;
                 top: 6px;
-                left: 75%;
+                left: 85%;
             }
         }
 
         
-        .search{
+        .searchC{
             position: absolute;
             font-size: 14px;
             top: 62px;
@@ -113,11 +112,11 @@
 
         
     }
-    .bloc1 .bloc5 {
+    .bloc1C .bloc5C {
         position: absolute;
         background-color:  #ffffff; 
         padding: 145px; /* Espacement intérieur */
-        top: 485px; /* Marge supérieure */
+        top: 475px; /* Marge supérieure */
         border-radius: 8px; /* Bord arrondi */
         left: 50px;
         width: 50%;
@@ -128,7 +127,7 @@
             top: 20px;
             left: 15px;
         }
-        .Name1{
+        .Name1C{
             position: absolute; 
             top: 150px; 
             left: 30px; 
@@ -154,18 +153,21 @@
             }
          
         }
-        .Time2{
+        .Time2C{
+            width: fit-content;
             position: absolute;
             top: 150px;
             left: 350px;
             margin-right: 20px;
             color: rgb(0, 0, 0);
             background-color: #84bcbf;
+            display: flex; /* Enable flexbox for horizontal alignment */
+            align-items: center;
            
             
         }
        
-        .Name2{
+        .Name2C{
             position: absolute;
             top: 90px;
             left: 30px;
@@ -189,18 +191,21 @@
                 }
             }
         }
-        .Time1{
+        .Time1C{
             position: absolute;
             top: 90px;
             left: 350px;
             margin-right: 20px;
             color: rgb(0, 0, 0);
             //background-color: #84bcbf;
+            border: 2px solid red;
+            width: fit-content;
+
            
             
         }
 
-        .Name3{
+        .Name3C{
             position: absolute;
             top: 210px;
             left: 30px;
@@ -225,13 +230,14 @@
                 
             }
         }
-        .Time3{
+        .Time3C{
             position: absolute;
             top: 210px;
             left: 350px;
             margin-right: 20px;
             color: rgb(0, 0, 0);
             background-color: #84bcbf;
+            border: 2px solid red;
            
             
         }
@@ -239,7 +245,7 @@
       
 
     
-    .search-bar {
+    .search-barC {
         position: absolute; /* Position absolue par rapport au bloc parent */
         top: 50px; /* Position sous l'en-tête */
         left: 50px; /* Positionnement horizontal */
@@ -250,7 +256,7 @@
         margin-bottom: 20px; /* Espacement en bas de la barre de recherche */
         background-color: #d8d6d6;
       }
-      .bloc2{
+      .bloc2C{
         display: flex;
         background-color:  #007E85;
         //transform: translateY(-10%);
@@ -273,12 +279,13 @@
         }
         img{
             position: absolute;
-            width: 100%;
-            height: 200px;
+            width: 250px;
+            height: 260px;
         
-            left: 165px;
-            top: 10px;
+            left: 300px;
+            top: 0;
             object-fit: contain;
+           
         }
         h1{
             font-family: Arial, sans-serif; // exemple de style de police
@@ -299,7 +306,7 @@
 
 
 
-        .bloc3{
+        .bloc3C{
         
             background-color: #84bcbf;
         // transform: translateY(10%);
@@ -326,7 +333,7 @@
             }
             }
             
-        .bloc4{
+        .bloc4C{
         
             background-color: #84bcbf;
         // transform: translateY(10%);
@@ -360,25 +367,25 @@
 
 
 
-    .text-zone{
+    .text-zoneC{
         padding: 15px;
         color: #ffffff;
     }
-    .main-heading{
+    .main-headingC{
         
         color: #007E85;
         font-size: 30px
 
         
     }
-    .sub-heading {
+    .sub-headingC {
         position: absolute;
         top: 80px;
         color: 50514F;
         font-size: 50px;
         left: 50px;
 
-        .primary {
+        .primaryC {
             color: #007E85;
         }
 

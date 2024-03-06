@@ -1,35 +1,35 @@
 
 
-.react-calendar {
+.my-custom-calendar {
   font-family: Arial, sans-serif; // exemple de style de police
   position: absolute;
   top: 6px; ;
-  left: 690px;
+  left: 700px;
   border: #ffffff;
   width: 75%;
 }
 
-.react-calendar__tile {
+.my-custom-calendar__tile {
   border: 1px solid #363535; 
 }
 
-.react-calendar__navigation {
+.my-custom-calendar__navigation {
   background-color: #007E85; 
 }
 
-.react-calendar__navigation__next-button {
+.my-custom-calendar__navigation__next-button {
   background-color: rgb(12, 11, 11); /* Couleur de fond */
   color: rgb(24, 23, 23); /* Couleur du texte */
 }
-.react-calendar__navigation__label {
+.my-custom-calendar__navigation__label {
   color: #242020; 
 }
-.react-calendar__month-view__day {
+.my-custom-calendar__month-view__day {
   border: 1px solid #3f0d0d;
   padding: 5px;
 }
 
-.react-calendar__navigation__arrow {
+.my-custom-calendar__navigation__arrow {
   color: #ffffff; 
 }
 

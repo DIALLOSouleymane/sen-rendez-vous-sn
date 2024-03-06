@@ -27,6 +27,8 @@ font-size: 33px;
         
       }
 .Button1 {
+      
+      
         background-color: #1ea5ac;
         color: #080808;
         font-size: 11px;
@@ -41,14 +43,13 @@ font-size: 33px;
         border-radius: 10px;
         transition-duration: 0.4s;
       
-    
-      
-      
-      }
-      .Button1:hover {
-        background-color: #0b6e74; 
-        
-      }
+}
+
+
+.Button1:hover {
+background-color: #0b6e74; 
+
+}
 
 
 .Button2 {
@@ -67,8 +68,10 @@ font-size: 33px;
         margin-left: 20px;
       
 }
+
+
 .Button2:hover {
         background-color: #cf3535; 
         
-      }
+}
       

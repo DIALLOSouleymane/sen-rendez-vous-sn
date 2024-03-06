@@ -20,14 +20,14 @@ import Valider from './valide.js'
 //import Calendar from './calendar';
 //<Button onClick={() => console.log('Bouton cliqué !')} className="custom-button">Voir Tout</Button>
 
-function Admin1() { 
+function Prest() { 
  
   return (
     <div className="containerForm">
       <div className="admin"> 
 
       <h1 className="main-heading">Panneau Prestataire / Tableau de bord</h1>
-        <div>
+      <div>
           <div className="bloc">
           <ul>
               <li className="nav-item mb-2">
@@ -78,8 +78,10 @@ function Admin1() {
             </div>
            
             <h1 className="sub-heading">Bonjour. <span className='primary'>M SOOW!!</span></h1>
-            <FontAwesomeIcon icon= {faBell} className="fontBell"  />
-            <FontAwesomeIcon icon={faUser}  className='user'/>
+            <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon= {faBell} className="fontBell"  />
+            </a>
+            <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon={faUser}  className='user'/></a>
+            
 
             <div className='bloc5'>
               <h2>Listes des rendez-vous</h2>
@@ -121,81 +123,75 @@ function Admin1() {
     
 
             </div>
+            < Calendar  
+          
+            />
+            
+          
+
+            <div className='demande'>
+              <h1>Demandes de réservations
+    
+              </h1>
+              <div className='ListName'>
+                <div className='Name1'>
+                      <Name userName= "SM"  key={1}/>
+                      <h3>Seynabou Mbaw
+                        <h5>Dépannage</h5>
+                      </h3>
+                </div>
+                    <div className='Time1'>
+                      <Time  time="9h:15min" key={1}/>
+                      
+                    </div>
+                    <div className='valider1'> 
+                    <Valider/>
+                    </div>
+                    
+                    <div className='Name2'>
+                      <Name userName= "AD" key={2}/>
+                      <h3>Amy Diouf
+                      <h5>Assurance</h5>
+                      </h3>
+                        
+                    </div>
+                    <div className='Time2'>
+                      <Time  time="9h:30min" key={1}/>
+                      
+                    </div>
+                    <div className='valider2'> 
+                    <Valider />
+                    </div>
+                    
+                    <div className='Name3'>
+                      <Name userName= "DJ" key={2}/>
+                      <h3>Daouda Jeanne
+                      <h5>Nettoyage</h5>
+                      </h3>
+                    </div>
+                    <div className='Time3'>
+                      <Time  time="9h:50min" key={1}/>
+                      
+                    </div>
+                    <div className='valider3'> 
+                    <Valider />
+                    </div>
+              </div>
+                  
+            </div>
+
+         
+         
+
+
+
+
+
           </div>
           <div className="bloc2">
               <h2>Mes réservations</h2>
               {/* <Link class="nav-link" to="/calendar"> */}
             {/* Calendar  */}
-            < Calendar  
-            
-            
-          />
-    
-            <h1>Demandes de réservations
-   
-            </h1>
-
-            <div className='demande'>
-              <div className='Name1'>
-                    <Name userName= "SM"  key={1}/>
-                    <h3>Seynabou Mbaw
-                      <h5>Dépannage</h5>
-                    </h3>
-              </div>
-                  <div className='Time1'>
-                    <Time  time="9h:15min" key={1}/>
-                    
-                  </div>
-                  <div className='valider1'> 
-                  <Valider/>
-                  </div>
-                  
-                  <div className='Name2'>
-                    <Name userName= "AD" key={2}/>
-                    <h3>Amy Diouf
-                    <h5>Assurance</h5>
-                    </h3>
-                      
-                  </div>
-                  <div className='Time2'>
-                    <Time  time="9h:30min" key={1}/>
-                    
-                  </div>
-                  <div className='valider2'> 
-                  <Valider />
-                  </div>
-                  
-                  <div className='Name3'>
-                    <Name userName= "DJ" key={2}/>
-                    <h3>Daouda Jeanne
-                    <h5>Nettoyage</h5>
-                    </h3>
-                  </div>
-                  <div className='Time3'>
-                    <Time  time="9h:50min" key={1}/>
-                    
-                  </div>
-                  <div className='valider3'> 
-                  <Valider />
-                  </div>
-                
-            </div>
-
-         
-         
-         
-          
-
-
-
-
-
-
-
-          
-
-
-          
           
             <div className="bloc3">
               <h2>Réservations à venir <br /><span>4</span></h2>
@@ -214,4 +210,4 @@ function Admin1() {
   );
 }
 
-export default Admin1;
+export default Prest;
