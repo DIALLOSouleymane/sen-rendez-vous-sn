@@ -3,7 +3,7 @@ import './App.scss';
 import Layout from './components/Layout';
 import CreerCompte from './pages/CreerCompte/CreerCompte';
 import HomePage from './pages/HomePage';
-import Prest from './components/admin/BrouillonAdmin'; 
+import Prest from './components/Prestataire/pagePrestataire'; 
 //import client from './components/client/index';
 // import client from './pages/client/index';
 import Client from './pages/client';

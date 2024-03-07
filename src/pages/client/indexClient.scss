@@ -6,15 +6,10 @@
     left: 0;
     top: 5%;
     display: flex;
-    // width: 100%;
-    //background-image: url("../../../assets/images/choix_type_compte.png");
-   
     height: 480px;
     width: 100%; 
-    //border: 2px solid black;
     .blocC{
-        background-color: #007E85;
-    //transform: translateY(-10%);
+    background-color: #007E85;
     margin-top: 50px; 
     padding: 400px;
     border: 1px solid #007E85;
@@ -31,9 +26,7 @@
     .bloc1C{
         display: flex;
         background-color: #f2f2f2;
-        //transform: translateY(-10%);
-        //margin-top: 10px; 
-        padding: 385px;
+        padding: 392px;
         top: 120px;
         //border: 1px solid #007E85;
         width:98%; ; 
@@ -116,8 +109,8 @@
         position: absolute;
         background-color:  #ffffff; 
         padding: 145px; /* Espacement intérieur */
-        top: 475px; /* Marge supérieure */
-        border-radius: 8px; /* Bord arrondi */
+        top: 475px;
+        border-radius: 8px; 
         left: 50px;
         width: 50%;
         //display: flex; 
@@ -153,11 +146,11 @@
             }
          
         }
-        .Time2C{
+        .Time1C{
             width: fit-content;
             position: absolute;
             top: 150px;
-            left: 350px;
+            left: 280px;
             margin-right: 20px;
             color: rgb(0, 0, 0);
             background-color: #84bcbf;
@@ -191,15 +184,16 @@
                 }
             }
         }
-        .Time1C{
+        .Time2C{
             position: absolute;
             top: 90px;
-            left: 350px;
+            left: 280px;
             margin-right: 20px;
             color: rgb(0, 0, 0);
             //background-color: #84bcbf;
-            border: 2px solid red;
+            //border: 3px solid red;
             width: fit-content;
+
 
            
             
@@ -233,11 +227,11 @@
         .Time3C{
             position: absolute;
             top: 210px;
-            left: 350px;
+            left: 280px;
             margin-right: 20px;
             color: rgb(0, 0, 0);
             background-color: #84bcbf;
-            border: 2px solid red;
+            //border: 2px solid red;
            
             
         }
@@ -246,21 +240,18 @@
 
     
     .search-barC {
-        position: absolute; /* Position absolue par rapport au bloc parent */
-        top: 50px; /* Position sous l'en-tête */
-        left: 50px; /* Positionnement horizontal */
-        width: 550px; /* Largeur de la barre de recherche */
-        padding: 10px; /* Espacement intérieur de la barre de recherche */
-        border: 0.5px #ccc; /* Bordure de la barre de recherche */
-        border-radius: 10px; /* Coins arrondis de la barre de recherche */
-        margin-bottom: 20px; /* Espacement en bas de la barre de recherche */
+        position: absolute; 
+        top: 50px; 
+        left: 50px; 
+        width: 550px; 
+        padding: 10px; 
+        border: 0.5px #ccc; 
+        border-radius: 10px; 
+        margin-bottom: 20px; 
         background-color: #d8d6d6;
       }
       .bloc2C{
         display: flex;
-        background-color:  #007E85;
-        //transform: translateY(-10%);
-        //margin-top: 10px; 
         padding: 130px;
         top: 315px;
         //border: 1px solid #007E85;
@@ -406,14 +397,14 @@
     li {
         top: 100%;
         //margin-right: 100px;
-        margin-bottom: 40px; /* Ajoute un espace entre chaque élément de liste */
+        margin-bottom: 40px; 
        
     }
  
     
       
       .nav-link .icon {
-        font-size: 20px; /* Taille u texte */
+        font-size: 20px; 
       }
 
   

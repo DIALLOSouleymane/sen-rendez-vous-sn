@@ -3,7 +3,8 @@
 .react-calendar {
   font-family: Arial, sans-serif; // exemple de style de police
   position: absolute;
-  
+  border: #ffffff;
+  border-radius: 10%;
   top: 200px; ;
   left: 600px;
 
@@ -19,8 +20,8 @@
 }
 
 .react-calendar__navigation__next-button {
-  background-color: rgb(12, 11, 11); /* Couleur de fond */
-  color: rgb(24, 23, 23); /* Couleur du texte */
+  background-color: rgb(12, 11, 11);
+  color: rgb(24, 23, 23); 
 }
 .react-calendar__navigation__label {
   color: #242020; 
@@ -36,21 +37,3 @@
 
 
 
-/*
-$red-dot-color: #ff0000;
-
-.react-calendar__month-view__day--taken {
-  position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: $red-dot-color;
-  }
-}*/

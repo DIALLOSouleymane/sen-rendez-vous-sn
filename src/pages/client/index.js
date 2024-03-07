@@ -11,7 +11,7 @@ import { faChartBar, faCalendarAlt, faEnvelope, faClipboard, faCog, faSignOutAlt
 //import Home from './Accueil/main';
 import PiedPage from '../../components/Accueil/piedPage';
 import client from '../../assets/images/client.png'
-import Name from '../../components/admin/names.js';
+import Name from '../../components/Prestataire/names.js';
 //import './names.scss'
 import TimeC from './TimeC.js';
 
@@ -40,16 +40,17 @@ function Client() {
            
             <h1 className="sub-headingC"> <span className='primaryC'>Mouhamed NDIAYE</span></h1>
             <div className='fontC'>
-            <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon= {faBell} className="fontBellC"  />
-            </a>
+              <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon= {faBell} className="fontBellC"  />
+              </a>
               
               <div className="bloc3">
-              <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon={faUser}  className='userC'/></a>
+                <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon={faUser}  className='userC'/>
+                </a>
                 <div className="profil">
-                <h2>MN </h2>
+                  <h2>MN </h2>
                 </div>
                 <a className="nav-link text-secondary" href="#"><FontAwesomeIcon icon= {faChevronDown} className='down' /></a>
-            </div>
+              </div>
              
             </div>
             
@@ -74,7 +75,7 @@ function Client() {
                   
               </div>
               <div className='Time2C'>
-                <TimeC  time="9H:30 min" key={1}/>
+                <TimeC  time="Jeudi 16 septembre   9H : 30 min" key={1}/>
                 
               </div>
               
@@ -85,22 +86,15 @@ function Client() {
                 </h3>
               </div>
               <div className='Time3C'>
-                <TimeC  time="11H:15 min" key={1}/>
+                <TimeC  time="Vendredi 30 Septembre 9H: 50min" key={1}/>
                 
               </div>
               
-
-    
-
             </div>
           </div>
           <div className="bloc2C">
-             
-              {/* <Link class="nav-link" to="/calendar"> */}
-            {/* Calendar  */}
-            < Calendar className="my-custom-calendar" 
-        
-            />
+
+            < Calendar className="my-custom-calendar" />
             <Consulter />
            
             <div className='client'>

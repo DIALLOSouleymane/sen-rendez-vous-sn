@@ -1,4 +1,4 @@
-// Button.js
+/* Button.js
 import React from 'react';
 import './Button.scss';
 
@@ -13,3 +13,4 @@ const Button = ({ onClick, children }) => {
 };
 
 export default Button;
+*/

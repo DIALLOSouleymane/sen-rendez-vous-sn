@@ -1,8 +1,6 @@
 import React from 'react';
 import './names.scss';
-// <h2>SM</h2>
-//<div className="TBloc" >
-//<p>{props.userTime}</p></div>
+
 
 
 function Name (props){
@@ -11,7 +9,8 @@ function Name (props){
         
             <div className="AdBloc" > 
                 <div className="nameBloc" >
-                    <p>{props.userName}</p></div>
+                    <p>{props.userName}</p>
+                </div>
                 
                
            

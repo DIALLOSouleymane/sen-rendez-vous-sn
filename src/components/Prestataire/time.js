@@ -1,6 +1,6 @@
 import React from 'react';
 import './Time.scss';
-// <h2>SM</h2>
+
 
 
 function Time (props){
@@ -8,11 +8,9 @@ function Time (props){
     return (
         <div className="TimeBloc">
            
-                <p>{props.time}</p>
- 
+            <p>{props.time}</p>
             
-           
-</div>
+        </div>
                 
         
       );

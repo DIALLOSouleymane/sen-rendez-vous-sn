@@ -6,7 +6,7 @@ function Consulter({ texte1 = "Voir mes rendez-vous" }) {
     
     <div className='button-containerClient'> 
     <div >
-        <button className="ButtonC" aria-label={texte1}>{texte1}</button>
+      <button className="ButtonC" aria-label={texte1}>{texte1}</button>
 
     </div>
    

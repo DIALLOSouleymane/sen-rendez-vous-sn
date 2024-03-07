@@ -1,14 +1,11 @@
 .TimeBlocClient{
    
     background-color: #fdbddc;
-        // transform: translateY(10%);
-            //margin-top: 10px; 
-    //padding: 1px;
-    top: 15px;
-    //right: 2px;
+    top: 10px;
+    max-width: 400px;
     left: 10px;
-            //border: 1px solid #007E85;
-    width: 170px; 
+    //border: 1px solid #007E85;
+    width: 260px; 
     height: 25px;
     font-size: 8px;
            // margin-left: 5px;
@@ -18,7 +15,14 @@
     font-size: 13px;
     p{
         margin-top: 6px;
-        color: #141414;
+        color: #F62088;
        // width: fit-content;
     }
 }
+
+/*
+@mixin contenu-adaptable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }*/

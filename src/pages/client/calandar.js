@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 // Composant pour marquer les jours spécifiques
 const CustomDayMarker = ({ date }) => (
@@ -16,4 +16,4 @@ function tileContent({ date }) {
   }
 }
 
-export default tileContent;
+export default tileContent;*/
