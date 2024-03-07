@@ -1,18 +1,73 @@
-.profil-prestataire{
-    position: absolute;
-    border: 3px solid green;
-
-    .profil{
-        display: flex;
-        justify-content: space-between;
-        border: 3px solid red;
-
-
-        img{
-            width: 50px;
-            height: 50px;
-        }
+.recherche-container{
+        // border: 3px solid green;
+        margin-left: 20px;
+    .recherche-result-title{
+        text-align: center;
+        color: #007E85;
     }
 
+
+    .profil-prestataire{
+        // border: 3px solid green;
+        width: 400px;
+        // height: 200px;
+        height: fit-content;
+        background-color: #fff;
+        margin: 5px auto; //centre les boxes
+        // margin: 5px 0;
+        padding: 10px;
+        box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    
+        .profil{
+            display: flex;
+            justify-content: flex-start;
+            // border: 3px solid red;
+    
+            h2, h4{
+                margin: 0 10px;
+            }
+    
+    
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+            }
+
+            
+        }
+
+
+        .my-favorite-icone{
+            display: inline-block;
+            color: #ccc;
+            margin: 0 5px;
+        }
+
+        .btn-rv-container{
+            // border: 3px solid green;
+            text-align: center;
+
+            button{
+                max-width: 300px;
+                width: 60%;
+                background-color: #007E85;
+                color: #fff;
+                height: 40px;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 5px;
+                // display: block;
+                // margin: auto;
+            }
+        }
+    
+    
+    }
+
+    .profil-prestataire:hover{
+        box-shadow: 0px 2px 8px 0px #007E85;
+
+    }
 
 }
