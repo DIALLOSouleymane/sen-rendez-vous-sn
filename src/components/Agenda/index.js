@@ -61,15 +61,28 @@ const data = [
     },
 ];
 
+// Paramètrage de l'agenda (Renommage)
+// const fildsData= {
+//     subject: { name: 'Subject', title: "Titre Rendez-vous" },
+//     location: { name: 'Location', title: 'Event Location' },
+//     description: { name: 'Description', title: 'Event Description' },
+//     startTime: { name: 'StartTime', title: 'Temps de Début' },
+//     endTime: { name: 'EndTime', title: 'Temps de Fin' },
+//     isAllDay: { name: "isAllDay", title: "Toute la journée" },
+//     repeat: { name: "Repeat", title: "Répétition" },
+//     timezone: { name: "Timezone", Title: "Fuseau Horaire" }
+// }
+
 export default function Agenda() {
 
     return (
-        <main className='flex justify-center items-center min-h-screen'>
+        <main>
             <ScheduleComponent 
                 width={800}
-                height={500}
+                height={550}
                 eventSettings={{
-                    dataSource: data
+                    dataSource: data,
+                    // fields: fildsData
                 }}
                 // selectedDate={new Date(2024, 3, 25)}
                 // currentView='Month'

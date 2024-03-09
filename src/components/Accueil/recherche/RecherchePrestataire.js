@@ -7,12 +7,15 @@ import yassine_pp from '../../../assets/images/_pp_yassine.jpg';
 import mbacke_pp from '../../../assets/images/_pp_mbacke.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt, faQuoteLeft, faQuoteRightAlt } from '@fortawesome/free-solid-svg-icons';
+// import { useHistory } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 
 
 const RecherchePrestataire = () => {
   const [data, setData] = useState([]);
 
+  let navigate = useNavigate();
   useEffect(() => {
     const fetchData = async () => {
       const name = "souleymane";
@@ -45,7 +48,10 @@ const RecherchePrestataire = () => {
       {/* <h4 className='recherche-result-title'>{data.length} résultat(s)</h4> */}
       {data.map((value, key) => {
         return (
-          <div className="profil-prestataire" key={value.id}>
+          <div className="profil-prestataire" 
+            key={value.id}
+            
+            >
             <div className="profil">
               <div>
                 {/* 
@@ -88,7 +94,12 @@ const RecherchePrestataire = () => {
               </p>
             </div>
             <div className="btn-rv-container">
-              <button >Prendre Rendez-Vous</button>
+              <button 
+                onClick={() => {
+                  navigate(`/rechercher/${value.id}`);
+                }}
+              >Prendre Rendez-Vous
+              </button>
             </div>
           </div>
         );

@@ -1,12 +1,8 @@
-.recherche-container{
-        // border: 3px solid green;
-        margin-left: 20px;
-    .recherche-result-title{
-        text-align: center;
-        color: #007E85;
-    }
+.prise-rv-container{
+    display: flex;
 
 
+    // Design de la page de prise de rv : rendu profil pretataire
     .profil-prestataire{
         // border: 3px solid green;
         width: 400px;
@@ -33,21 +29,21 @@
                 height: 50px;
                 border-radius: 100%;
             }
-
+    
             
         }
-
-
+    
+    
         .my-favorite-icone{
             display: inline-block;
             color: #ccc;
             margin: 0 5px;
         }
-
+    
         .btn-rv-container{
             // border: 3px solid green;
             text-align: center;
-
+    
             button{
                 max-width: 300px;
                 width: 60%;
@@ -60,7 +56,7 @@
                 // display: block;
                 // margin: auto;
             }
-
+    
             button:hover{
                 opacity: 0.8;
                 box-shadow: 0px 2px 8px 0px #007E85;
@@ -69,10 +65,10 @@
     
     
     }
-
+    
     .profil-prestataire:hover{
         box-shadow: 0px 2px 8px 0px #007E85;
-
+    
     }
 
 }

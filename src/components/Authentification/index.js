@@ -21,7 +21,7 @@ function Connexion() {
         </div>
 
         <div className="authentification">
-            <img src={connexionImg} alt="Image" />
+            <img src={connexionImg} alt="AuthImage" />
         </div>
     </div>
   );

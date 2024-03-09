@@ -12,7 +12,7 @@ function Annone() {
             <input type='button' value="En savoir plus" />
         </div>
         <div className='annonce_images'>
-            <img src={annonce_image} alt="Image d'annonce" />
+            <img src={annonce_image} alt="Annonce" />
         </div>
     </div>
   )

@@ -18,9 +18,24 @@ const db = require("./models");
 // const personneRouter = require('./routes/Personne');
 // app.use("/personnes", personneRouter);
 
+
+/*
+    Un point de terminaison d'API (endpoint) est un emplacement spécifique au sein d'une API qui accepte les demandes et renvoie les réponses. Il s'agit d'un moyen permettant à différents systèmes et applications 
+    de communiquer entre eux, en envoyant et en recevant des informations et des instructions via le point final.
+
+*/
+
 // recherche endpoint
 const rechercher = require('./recherche/recherche');
 app.use("/search", rechercher);
+
+/*
+    point de terminaison (endpoint) de récupération de Prestataire par id
+    endpoint
+*/
+const prestataireById = require('./routes/PrestataireById');
+app.use("/prestataireId", prestataireById);
+
 
 // create user route
 app.use("/user", createUserRoute);
