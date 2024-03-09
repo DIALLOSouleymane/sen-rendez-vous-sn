@@ -9,6 +9,7 @@ import PrestataireSignUpPage from './pages/CreerCompte/ComptePrestataire/Prestat
 // import Authentification from './components/Authentification';
 import ConnexionPage from './pages/Connexion/Connexion';
 import RecherchePrestataire from './components/Accueil/recherche/RecherchePrestataire';
+import Agenda from './components/Agenda';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         {/* <Route path='inscriptionPrestataire2' element={<InscriptionPrestataire />} /> */}
         <Route path='inscriptionprestataire' element={<PrestataireSignUpPage />} />
         <Route path='rechercher' element={<RecherchePrestataire />}/>
+        <Route path='dialloagenda' element={<Agenda />}/>
       </Routes>
     </>
   );

@@ -5,7 +5,6 @@ import default_profil from '../../../assets/images/default-avatar-profile.png';
 import sdley_pp from '../../../assets/images/_pp_sdley.png';
 import yassine_pp from '../../../assets/images/_pp_yassine.jpg';
 import mbacke_pp from '../../../assets/images/_pp_mbacke.jpg';
-import mbacke_pp2 from '../../../assets/images/_pp_mbacke2.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkerAlt, faQuoteLeft, faQuoteRightAlt } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,7 +15,7 @@ const RecherchePrestataire = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const name = "";
+      const name = "souleymane";
       const fonction = "";
       try {
         const response = await axios.get(`http://localhost:3001/search?name=${name}&fonction=${fonction}`);
@@ -37,7 +36,7 @@ const RecherchePrestataire = () => {
       {
         (!data.length) ? 
           <h4 className='recherche-result-title'>Aucun résultat ne correspond à votre recherche !</h4> : 
-          (data.length == 1) ?
+          (data.length === 1) ?
             <h4 className='recherche-result-title'>Un seul profil correspond à votre recherche : </h4> :
               <h4 className='recherche-result-title'>
                 {data.length} résultat(s) correspondent à vos recherches :
@@ -54,13 +53,13 @@ const RecherchePrestataire = () => {
                     des différents prestataires :
                 */}
                 {
-                  (value.id == 1) ?
+                  (value.id === 1) ?
                     <img src={sdley_pp} alt='sdley profil'/> :
-                    (value.id == 2) ?
-                      <img src={yassine_pp} alt='Profil Image'/> : 
-                      (value.id == 3) ?
-                      <img src={mbacke_pp} alt='Profil Image'/> :
-                      <img src={default_profil} alt='Profil Image'/>
+                    (value.id === 2) ?
+                      <img src={yassine_pp} alt='Yassine Profil'/> : 
+                      (value.id === 3) ?
+                      <img src={mbacke_pp} alt='M Mbacke Profil'/> :
+                      <img src={default_profil} alt='Profil'/>
                 }
               </div>
               <div>
