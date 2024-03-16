@@ -18,7 +18,7 @@ const RecherchePrestataire = () => {
   let navigate = useNavigate();
   useEffect(() => {
     const fetchData = async () => {
-      const name = "souleymane";
+      const name = "Souleymane";
       const fonction = "";
       try {
         const response = await axios.get(`http://localhost:3001/search?name=${name}&fonction=${fonction}`);
@@ -96,7 +96,7 @@ const RecherchePrestataire = () => {
             <div className="btn-rv-container">
               <button 
                 onClick={() => {
-                  navigate(`/rechercher/${value.id}`);
+                  navigate(`/prise-rendez-vous-avec-nos-prestataires/${value.id}`);
                 }}
               >Prendre Rendez-Vous
               </button>

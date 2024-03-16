@@ -26,7 +26,8 @@ function App() {
         <Route path='inscriptionprestataire' element={<PrestataireSignUpPage />} />
         <Route path='rechercher' element={<RecherchePrestataire />}/>
         <Route path='dialloagenda' element={<Agenda />}/>
-        <Route path='rechercher/:id' element={<Prestataire />}/>
+        {/* <Route path='rechercher/:id' element={<Prestataire />}/> */}
+        <Route path='prise-rendez-vous-avec-nos-prestataires/:id' element={<Prestataire />}/>
       </Routes>
     </>
   );
